@@ -1,0 +1,63 @@
+.createad-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    width: 98%; 
+    overflow: hidden;
+    margin: 70px auto 0;
+    border: 1px solid #ddd;
+    position: relative;
+  }
+
+  .createad-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+  }
+
+  
+  h1 {
+    width: 100%; 
+    text-align: left;
+    margin-bottom: 30px; 
+   font-size: 1.5rem;
+}
+  
+
+  
+  .createad-content {
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-item {
+    margin: 0 10px;
+  }
+  
+  .next-button {
+    position: relative;
+   
+    top: 250px; 
+    left: 250px; 
+    }
+  
+  
+
+  @media (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+  }
+  
+  

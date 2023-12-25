@@ -1,0 +1,30 @@
+.dashboard-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  border: 1px solid #ddd;
+  height: 70vh; 
+  overflow-x: auto;
+  overflow-y: auto; 
+}
+
+.dashboard-box {
+  flex: 1;
+  margin-right: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
+
+.dashboard-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .dashboard-box {
+    flex-basis: 100%; 
+    margin-right: 0; 
+  }
+}
